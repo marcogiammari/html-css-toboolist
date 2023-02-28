@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -9,13 +10,13 @@ body {
 
 h1 {
     display: inline-block;
-    line-height: 67px;
+    vertical-align: middle;
+    font-weight: 900;
 }
 
 header {
-    height: 60px;
     padding-left: 20px;
-    margin-bottom: 14px;
+    margin: 10px;
 }
 
 header img {
@@ -119,6 +120,6 @@ section h3 {
     background-color: #adc71e;
 }
 
-p {
-    margin-bottom: 15px;
+section p {
+    margin-bottom: 20px;
 }

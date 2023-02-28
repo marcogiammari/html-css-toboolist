@@ -61,3 +61,31 @@ button {
     background-color: white;
     border: 2px solid lightgray;
 }
+
+h3 span {
+    font-size: 14px;
+}
+
+section h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.check {
+    color: #62bfa8;
+    border: 1px solid #62bfa8;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.label {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 13px;
+    font-size: 11px;
+    margin-left: 3px;
+}
+
+.blue {
+    background-color: #47adf1;
+}

@@ -77,15 +77,38 @@ section h3 {
     padding: 3px;
 }
 
+.cross {
+    color: #f1938f;
+    border: 1px solid #f1938f;
+    border-radius: 50%;
+    padding: 3px;
+}
+
 .label {
     color: white;
     font-weight: bold;
     padding: 10px;
     border-radius: 13px;
     font-size: 11px;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 .blue {
     background-color: #47adf1;
+}
+
+.purple {
+    background-color: #9c72e4;
+}
+
+.green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f19a2d;
+}
+
+p {
+    margin-bottom: 15px;
 }

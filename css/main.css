@@ -2,9 +2,6 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-}
-
-body {
     font-family: Arial, sans-serif;
 }
 
@@ -29,14 +26,14 @@ main {
     padding: 40px 40px;
 }
 
-#contenitore-bianco {
+#white-container {
     background-color: white;
     margin: auto;
     max-width: 800px; 
     padding-bottom: 70px;
 }
 
-section {
+#white-container section {
     padding-left: 50px;
 }
 
@@ -46,11 +43,12 @@ section {
     padding-bottom: 20px;
 }
 
-button {
+#buttons-section button {
     border-radius: 5px;
     height: 40px;
     width: 100px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #add-task {
@@ -70,21 +68,38 @@ h3 span {
 }
 
 section h3 {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
+
 .check {
+    width: 20px;
+    height: 20px;
     color: #62bfa8;
     border: 1px solid #62bfa8;
     border-radius: 50%;
-    padding: 3px;
+    padding: 1px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: content-box;
+    line-height: 20px;
+    font-size: 12px;
 }
 
 .cross {
+    width: 20px;
+    height: 20px;
     color: #f1938f;
     border: 1px solid #f1938f;
     border-radius: 50%;
-    padding: 3px;
+    padding: 1px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: content-box;
+    line-height: 20px;
+    font-size: 12px;
 }
 
 .label {
